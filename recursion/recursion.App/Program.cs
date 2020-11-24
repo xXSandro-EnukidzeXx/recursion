@@ -110,5 +110,22 @@ namespace recursion.App
                     return false;
             }
         }
+        
+        public static int pathways(int coins)
+        {
+            List<int> cases = new List<int>(){
+                1,
+                2,
+                4
+            };
+            if(coins == 1 | coins == 2| coins == 4)
+            {
+                return 0;
+            }
+            foreach(int i in cases)
+            {
+
+            }
+        }
     }
 }
